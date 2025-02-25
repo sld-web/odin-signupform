@@ -3,9 +3,61 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="tailwind/src/output.css">
+    <link rel="stylesheet" href="style.css">
     <title>Sign up </title>
 </head>
 <body>
+    <div class="main-container">
+        <div class="img-container">
+            <img src="img/bg.jpg" alt="img" class="main-img">
+        <div class="logo-container">
+            <img class="logo" src="img/logo/odin-lined.png">
+            <p class="logo-txt">ODIN</p>
+        </div>
+        </div>
+        <div class="form-container">
+            <div class="hero">
+                <p class="main-txt">This is not a real online service! you know you need something like this in your<br>
+                    to help you realize your deepest dreams. <br>Sign up now to get started.
+                </p>
+                <p class="sub-txt">You know you want to do</p>
+            </div>
+            <div class="form">
+                <form action="" method="post">
+                    <div class="form-title">Lets's do this !</div>
+                    <div class="names-sect">
+                        <div class="first-name">
+                           <label for="fname">FIRST NAME</label>
+                           <input type="text" name="fname" id="fname" class="fname" placeholder="thor">
+                        </div>
+                        <div class="last-name">
+                            <label for="lname">LAST NAME</label>
+                            <input type="text" name="lname"  id="lname" class="lname" placeholder="odinson">
+                        </div>
+                    </div>
+                    <div class="contact-sect">
+                        <div class="email">
+                            <lable for="email">EMAIL</lable>
+                            <input type="email" name="email" id="email" class="email-inp">
+                        </div>
+                        <div class="phn-number">
+                            <label for="phn-number">PHONE NUMBER</label>
+                            <input type="tel" name="phn-number" id="phn-number" class="phn-inp">
+                        </div>
+                    </div>
+                    <div class="pwd">
+                        <div class="pwd-inp-sect">
+                            <label for="password">PASSWORD</label>
+                            <input type="password" name="password" id="password" class="pwd-inp">
+                        </div>
+                        <div class="pwd-cnf-inp">
+                            <label for="pwd-conf">CONFIRM PASSWORD</label>
+                            <input type="password" name="pwd-conf" id="pwd-conf" class="pwd-conf">
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
 </body>
 </html>
