@@ -63,7 +63,7 @@ html body{
     display: flex;
     flex-direction: column;
     width: 65vw;
-    height: 100vh;
+    height: 50%;
 }
 
 .hero{
@@ -121,4 +121,13 @@ html body{
     flex-direction: row;
     gap: 4vw;
     margin-top: 3vw;
+}
+
+.footer{
+    display: flex;
+    flex-direction: column;
+    padding-top: 10vw;
+    background-color: rgb(241, 240, 233);
+    height: 100vh;
+    z-index: -1;
 }
